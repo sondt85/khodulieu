@@ -1,1 +1,19 @@
-hom nay mua to qua
+
+1.Tao file va thu muc trong folder can day len (thu muc local/muaroi.txt)
+2.Cai dat git tren terminal: yum install git-all
+3.Kiem tra git cai dat hay chua : git -version
+4.Cau hinh git ban dau:
+ git config -global user.name "ten_dang_nhap_github"
+ git config -global user.email "email@email_dangnhap_github"
+5.Le github.com tao 1 kho du lieu.
+6.Tai thu muc hien tai o terminal, khoi tao git tren local : git init
+7.Dua cac file vao theo doi tren git: git add .
+8.Xac nhan cac file duoc theo doi : git commit -m "Taofile"
+9.Ket noi kho du lieu local voi kho du lieu tren github: 
+git remote add kho-du_lieu__duoimaytinh    https://github.com/username/khodulieu.git
+10.Day du lieu len github: git push kho-du_lieu__duoimaytinh master
+
+
+
+
+
